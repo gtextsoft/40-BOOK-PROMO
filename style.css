@@ -182,6 +182,13 @@ nav {
     box-shadow: 0 15px 30px rgba(212, 175, 55, 0.5);
 }
 
+.small {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    margin-top: 15px;
+    width: 100%;
+}
+
 .pulse {
     animation: pulse-animation 2s infinite;
 }
