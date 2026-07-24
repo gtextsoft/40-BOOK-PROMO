@@ -230,6 +230,32 @@ nav {
     box-shadow: 0 14px 28px rgba(212, 175, 55, 0.45);
 }
 
+.secondary-btn {
+    background: var(--navy);
+    color: var(--white);
+    box-shadow: 0 10px 24px rgba(10, 22, 51, 0.22);
+}
+
+.secondary-btn:hover {
+    transform: translateY(-4px);
+    background: #14284f;
+    box-shadow: 0 14px 28px rgba(10, 22, 51, 0.3);
+}
+
+.pay-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.pay-btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px 20px;
+    font-size: 0.98rem;
+}
+
 .pulse {
     animation: pulse-animation 2.2s infinite;
 }
